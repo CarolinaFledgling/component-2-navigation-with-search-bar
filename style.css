@@ -52,6 +52,8 @@ body{
     font-weight:bold;       
     color:#333;
     font-size: 16px;
+    transform:translateX(0) scaleX(0);
+    transition: transform .3s;
 }
 
 .search-button{
@@ -61,7 +63,7 @@ body{
     height: 100%;
     width: 80px;
     border: none;
-    background-color: rgb(94, 94, 253);
+    background-color: rgba(242, 253, 94, 0.801);
     cursor: pointer;
 }
 
@@ -70,8 +72,12 @@ body{
 }
 
 .search-button:focus{
-    background-color: rgb(105, 105, 185);
+    background-color: rgb(226, 190, 30);
 }
 .search-input:focus{
     background-color: #ddd;
+}
+
+.active{
+    transform:translateX(-80px) scaleX(1);
 }
