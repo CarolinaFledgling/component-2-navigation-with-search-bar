@@ -54,6 +54,7 @@ body{
     font-size: 16px;
     transform:translateX(0) scaleX(0);
     transition: transform .3s;
+    transform-origin: right;
 }
 
 .search-button{
@@ -79,5 +80,5 @@ body{
 }
 
 .active{
-    transform:translateX(-80px) scaleX(1);
+    transform: translateX(-80px) scaleX(1);
 }
