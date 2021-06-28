@@ -43,6 +43,7 @@ body{
 
 .search-bar{
     position: relative;
+    align-self: stretch;
 }
 
 
